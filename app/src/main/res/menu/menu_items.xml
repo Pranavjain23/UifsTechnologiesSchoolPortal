@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/reading"
+        android:icon="@drawable/ic_reading"
+        android:title="Reading"/>
+
+    <item android:title="Exam"
+        android:id="@+id/exam"
+        android:icon="@drawable/ic_examtest">
+
+        <!--<menu>
+            <item
+                android:id="@+id/examNotif"
+                android:icon="@drawable/ic_examnotif"
+                android:title="Exam/Test Notification"/>
+            <item
+                android:id="@+id/downloadAdmitCard"
+                android:icon="@drawable/ic_downloadadmitcard"
+                android:title="Download Admit Card"/>
+            <item
+                android:id="@+id/examTest"
+                android:icon="@drawable/ic_examtest"
+                android:title="Exam/Test"/>
+            <item
+                android:id="@+id/examTestReport"
+                android:icon="@drawable/ic_examtestreport"
+                android:title="Exam/Test Report"/>
+        </menu>-->
+
+    </item>
+    <item android:title="Home Work"
+        android:id="@+id/homework"
+        android:icon="@drawable/ic_pendinghw">
+
+        <!--<menu>
+            <item
+                android:id="@+id/pendingHw"
+                android:icon="@drawable/ic_pendinghw"
+                android:title="Pending HomeWork" />
+            <item
+                android:id="@+id/declineHw"
+                android:icon="@drawable/ic_declinehw"
+                android:title="Decline HomeWork"/>
+            <item
+                android:id="@+id/SubmittedHw"
+                android:icon="@drawable/ic_submittedhw"
+                android:title="Submitted HomeWork"/>
+            <item
+                android:id="@+id/homeworkStatus"
+                android:icon="@drawable/ic_homeworkstatus"
+                android:title="HomeWork Status"/>
+        </menu>-->
+
+    </item>
+
+    <item
+        android:title="Time Table"
+        android:icon="@drawable/ic_timetable"
+        android:id="@+id/timeTable">
+    </item>
+    </group>
+</menu>

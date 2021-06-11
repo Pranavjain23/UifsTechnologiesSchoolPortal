@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1faa00</color>
+    <color name="colorPrimaryDark">#1faa00</color>
+    <color name="colorAccent">#1faa00</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="uifslogotextcolor">#2134b4</color>
+    <color name="btn_green">#24C10A</color>
+</resources>

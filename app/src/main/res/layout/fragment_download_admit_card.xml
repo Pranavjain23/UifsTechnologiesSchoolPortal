@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DownloadAdmitCardFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="10dp"
+       android:paddingStart="20dp"
+       android:paddingEnd="20dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Welcome to Download"
+           android:textColor="@color/black"
+           android:layout_marginEnd="60dp"
+           android:textStyle="bold"
+           android:textSize="22sp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Admit Card Area"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginEnd="60dp"
+           android:textSize="22sp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="4dp"
+           android:layout_marginEnd="50dp"
+           android:textSize="12sp"
+           android:textColor="@color/black"
+           android:text="Here You can see or Download Admit Card, for This Select Exam and Enter Student Id and then Show Get Admit Card Button.After Click this Button You Get Admit Card."/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Select Exam"
+           android:textSize="22sp"
+           android:textColor="@color/black"
+           android:layout_marginTop="12dp"
+           android:textStyle="bold"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:hint="Select Exam"
+           android:padding="20dp"
+           android:textColorHint="#c4c4c4"
+           android:background="@drawable/box_outline"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:text=" Enter Student ID"
+           android:textSize="22sp"
+           android:textColor="@color/black"
+           android:textStyle="bold" />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:hint="Select Exam"
+           android:padding="20dp"
+           android:textColorHint="#c4c4c4"
+           android:background="@drawable/box_outline"/>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:padding="17dp"
+           android:textSize="22sp"
+           android:background="@drawable/green_button_background"
+           android:text="Get admit card"
+           android:textColor="@color/colorWhite"
+           android:textStyle="bold"
+           android:textAllCaps="true"/>
+   </LinearLayout>
+
+</ScrollView>
